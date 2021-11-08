@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW4_5_Triangle", "HW4_5_Triangle.csproj", "{30D0DF32-E6B1-4F2C-9635-0AE13EE0C01C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30D0DF32-E6B1-4F2C-9635-0AE13EE0C01C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D0DF32-E6B1-4F2C-9635-0AE13EE0C01C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D0DF32-E6B1-4F2C-9635-0AE13EE0C01C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D0DF32-E6B1-4F2C-9635-0AE13EE0C01C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E30E7FC-C3A4-401C-9A93-5CC5C5F246D3}
+	EndGlobalSection
+EndGlobal
