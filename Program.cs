@@ -57,11 +57,11 @@ namespace HW4_5_Triangle
         static public bool ValidateSides(double sideAC, double sideCB, double sideAB)
         {
             bool valFlag = true;
-            if ((sideAC + sideCB) <= sideAB)
+            if (((sideAC + sideCB) <= sideAB) || (sideAB <= 0))
                 valFlag = false;
-            if ((sideAC+ sideAB) <= sideCB)
+            if (((sideAC + sideAB) <= sideCB) || (sideCB <= 0))
                 valFlag = false;
-            if ((sideCB + sideAB) <= sideAC)
+            if (((sideCB + sideAB) <= sideAC) || (sideAC <= 0))
                 valFlag = false;
 
             return valFlag;
