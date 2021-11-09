@@ -51,8 +51,7 @@ namespace HW4_5_Triangle
             }
             else
             {
-                MessageBox.Show("Input error! Data must be positive and the sum of the " +
-                    "lengths of the two sides of the triangle must be less than the length of the third side.");
+                MessageBox.Show("Input error! Data must be positive.");
                 return false;
             }
         }
